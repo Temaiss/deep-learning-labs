@@ -29,7 +29,7 @@ retrieval:
 - Shaft misalignment can create increased vibration, coupling wear, and elevated
   bearing temperatures.
 - Belt slippage can result from inadequate belt tension, contamination, or worn
-   belt surfaces.
+  belt surfaces.
 - Before servicing rotating machinery, isolate the energy source and follow
   appropriate lockout procedures.
 ```
