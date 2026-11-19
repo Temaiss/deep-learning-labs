@@ -20,12 +20,18 @@ model).
 ```
 The following information was given to the final model through a manual for
 retrieval:
-- Excessive bearing vibration may result from imbalance, shaft misalignment, looseness, or bearing damage.
-- Bearing overheating may be caused by excessive load, inadequate lubrication, excessive lubrication, or incorrect installation.
-- Pump cavitation may produce a rattling or gravel-like sound, fluctuating pressure, vibration, and damage to the impeller.
-- Shaft misalignment can create increased vibration, coupling wear, and elevated bearing temperatures.
-- Belt slippage can result from inadequate belt tension, contamination, or worn belt surfaces.
-- Before servicing rotating machinery, isolate the energy source and follow appropriate lockout procedures.
+- Excessive bearing vibration may result from imbalance, shaft misalignment,
+  looseness, or bearing damage.
+- Bearing overheating may be caused by excessive load, inadequate lubrication,
+  excessive lubrication, or incorrect installation.
+- Pump cavitation may produce a rattling or gravel-like sound, fluctuating pressure,
+  vibration, and damage to the impeller.
+- Shaft misalignment can create increased vibration, coupling wear, and elevated
+  bearing temperatures.
+- Belt slippage can result from inadequate belt tension, contamination, or worn
+   belt surfaces.
+- Before servicing rotating machinery, isolate the energy source and follow
+  appropriate lockout procedures.
 ```
 
 # `Architecture` 
@@ -39,7 +45,8 @@ Question: The user enters a natural language query.
 Retrieval: The query is encoded into a vector and compared against the manual's
 sentence embeddings, and the top 2 matching context blocks are retrieved.
 LLM: The question and context are combined to generate the answer.
-Answer: The generative LLM outputs the answers and the top2 retrieved context blocks.
+Answer: The generative LLM outputs the answers and the top2 retrieved context
+blocks.
 ```
 
 # `Evaluation` 
